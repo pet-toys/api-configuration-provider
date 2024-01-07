@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC67521A-BFDE-4745-B6E9-DEDC64D64848}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.globalconfig = .globalconfig
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		LICENSE = LICENSE
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0EC91E9A-B0BF-47C6-BDC2-56BC2A0A9245}"
+	ProjectSection(SolutionItems) = preProject
+		docs\CODE_OF_CONDUCT.md = docs\CODE_OF_CONDUCT.md
+		docs\CONTRIBUTING.md = docs\CONTRIBUTING.md
+		docs\SECURITY.md = docs\SECURITY.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{3F2D8838-8600-4C86-B382-717530038F5B}"
+	ProjectSection(SolutionItems) = preProject
+		assets\icon.png = assets\icon.png
+		assets\key.snk = assets\key.snk
+		assets\RELEASE-NOTES.txt = assets\RELEASE-NOTES.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{4DBE6507-6897-49F7-98B4-574A216A0D98}"
+	ProjectSection(SolutionItems) = preProject
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{E2BDD839-2DE6-42FD-BD2D-8A4CEB3FBA4A}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug_report.md = .github\ISSUE_TEMPLATE\bug_report.md
+		.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{AC00354F-A0FF-4F6E-8646-EF7A5651DD9F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-deploy.yml = .github\workflows\build-deploy.yml
+		.github\workflows\test.yml = .github\workflows\test.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FA4CAAA-042D-4896-984D-EEA0EEBEA960}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CA06318A-E6E2-4CE2-90BA-A4AAB1F6F97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetToys.ApiConfigurationProvider", "src\PetToys.ApiConfigurationProvider\PetToys.ApiConfigurationProvider.csproj", "{AB6757E6-6969-410D-8584-7738B699B76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetToys.ApiConfigurationProvider.Tests", "test\PetToys.ApiConfigurationProvider.Tests\PetToys.ApiConfigurationProvider.Tests.csproj", "{FEF2C295-E464-4FF5-815E-56ACA48DCC2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB6757E6-6969-410D-8584-7738B699B76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6757E6-6969-410D-8584-7738B699B76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6757E6-6969-410D-8584-7738B699B76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6757E6-6969-410D-8584-7738B699B76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF2C295-E464-4FF5-815E-56ACA48DCC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF2C295-E464-4FF5-815E-56ACA48DCC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF2C295-E464-4FF5-815E-56ACA48DCC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF2C295-E464-4FF5-815E-56ACA48DCC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EC91E9A-B0BF-47C6-BDC2-56BC2A0A9245} = {FC67521A-BFDE-4745-B6E9-DEDC64D64848}
+		{3F2D8838-8600-4C86-B382-717530038F5B} = {FC67521A-BFDE-4745-B6E9-DEDC64D64848}
+		{4DBE6507-6897-49F7-98B4-574A216A0D98} = {FC67521A-BFDE-4745-B6E9-DEDC64D64848}
+		{E2BDD839-2DE6-42FD-BD2D-8A4CEB3FBA4A} = {4DBE6507-6897-49F7-98B4-574A216A0D98}
+		{AC00354F-A0FF-4F6E-8646-EF7A5651DD9F} = {4DBE6507-6897-49F7-98B4-574A216A0D98}
+		{AB6757E6-6969-410D-8584-7738B699B76F} = {3FA4CAAA-042D-4896-984D-EEA0EEBEA960}
+		{FEF2C295-E464-4FF5-815E-56ACA48DCC2A} = {CA06318A-E6E2-4CE2-90BA-A4AAB1F6F97B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7853E0E7-E371-465C-A33F-95229D40ABF9}
+	EndGlobalSection
+EndGlobal
